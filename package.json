@@ -7,7 +7,7 @@
     "test": "web-test-runner \"src/**/*.test.tsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
-    "refresh-kbs": "npm uninstall --force via-keyboards && npm install --force github:the-via/keyboards",
+    "refresh-kbs": "npm uninstall --force via-keyboards && npm install --force github:O-H-M2/via-keyboards",
     "build:azure": "npm run refresh-kbs && npm run build"
   },
   "engines": {
@@ -39,7 +39,7 @@
     "redux-logger": "^3.0.6",
     "styled-components": "^6.0.0-beta.5",
     "ts-node": "^10.4.0",
-    "via-keyboards": "github:the-via/keyboards"
+    "via-keyboards": "github:O-H-M2/via-keyboards"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.1.0",
